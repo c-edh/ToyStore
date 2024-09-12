@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42399E12C92FCBB005AD7B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42399E02C92FCBB005AD7B4 /* AppDelegate.swift */; };
+		F42399E32C92FCBB005AD7B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42399E22C92FCBB005AD7B4 /* ContentView.swift */; };
+		F42399E52C92FCBD005AD7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42399E42C92FCBD005AD7B4 /* Assets.xcassets */; };
+		F42399E82C92FCBD005AD7B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42399E72C92FCBD005AD7B4 /* Preview Assets.xcassets */; };
+		F4239A082C930106005AD7B4 /* Drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A002C930106005AD7B4 /* Drummer.usdz */; };
+		F4239A092C930106005AD7B4 /* Robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A012C930106005AD7B4 /* Robot.usdz */; };
+		F4239A0A2C930106005AD7B4 /* Scene.usda in Resources */ = {isa = PBXBuildFile; fileRef = F4239A022C930106005AD7B4 /* Scene.usda */; };
+		F4239A0B2C930106005AD7B4 /* ToyBiplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A032C930106005AD7B4 /* ToyBiplane.usdz */; };
+		F4239A0C2C930106005AD7B4 /* ToyRocket.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A042C930106005AD7B4 /* ToyRocket.usdz */; };
+		F4239A0D2C930106005AD7B4 /* RocketToy2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A052C930106005AD7B4 /* RocketToy2.usdz */; };
+		F4239A0E2C930106005AD7B4 /* ToyCar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A062C930106005AD7B4 /* ToyCar.usdz */; };
+		F4239A0F2C930106005AD7B4 /* RocketToy1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4239A072C930106005AD7B4 /* RocketToy1.usdz */; };
+		F4239A112C9302E6005AD7B4 /* ToyStoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4239A102C9302E6005AD7B4 /* ToyStoreCoordinator.swift */; };
+		F4239A132C930EA4005AD7B4 /* ARView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4239A122C930EA4005AD7B4 /* ARView + Extension.swift */; };
+		F4239A152C930ED1005AD7B4 /* ToyModelEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4239A142C930ED1005AD7B4 /* ToyModelEnum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42399DD2C92FCBB005AD7B4 /* ToyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42399E02C92FCBB005AD7B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42399E22C92FCBB005AD7B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F42399E42C92FCBD005AD7B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42399E72C92FCBD005AD7B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4239A002C930106005AD7B4 /* Drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Drummer.usdz; sourceTree = "<group>"; };
+		F4239A012C930106005AD7B4 /* Robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Robot.usdz; sourceTree = "<group>"; };
+		F4239A022C930106005AD7B4 /* Scene.usda */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scene.usda; sourceTree = "<group>"; };
+		F4239A032C930106005AD7B4 /* ToyBiplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyBiplane.usdz; sourceTree = "<group>"; };
+		F4239A042C930106005AD7B4 /* ToyRocket.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyRocket.usdz; sourceTree = "<group>"; };
+		F4239A052C930106005AD7B4 /* RocketToy2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = RocketToy2.usdz; sourceTree = "<group>"; };
+		F4239A062C930106005AD7B4 /* ToyCar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyCar.usdz; sourceTree = "<group>"; };
+		F4239A072C930106005AD7B4 /* RocketToy1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = RocketToy1.usdz; sourceTree = "<group>"; };
+		F4239A102C9302E6005AD7B4 /* ToyStoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyStoreCoordinator.swift; sourceTree = "<group>"; };
+		F4239A122C930EA4005AD7B4 /* ARView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView + Extension.swift"; sourceTree = "<group>"; };
+		F4239A142C930ED1005AD7B4 /* ToyModelEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyModelEnum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42399DA2C92FCBB005AD7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42399D42C92FCBB005AD7B4 = {
+			isa = PBXGroup;
+			children = (
+				F42399DF2C92FCBB005AD7B4 /* ToyStore */,
+				F42399DE2C92FCBB005AD7B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42399DE2C92FCBB005AD7B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42399DD2C92FCBB005AD7B4 /* ToyStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42399DF2C92FCBB005AD7B4 /* ToyStore */ = {
+			isa = PBXGroup;
+			children = (
+				F42399E02C92FCBB005AD7B4 /* AppDelegate.swift */,
+				F42399E22C92FCBB005AD7B4 /* ContentView.swift */,
+				F4239A142C930ED1005AD7B4 /* ToyModelEnum.swift */,
+				F4239A102C9302E6005AD7B4 /* ToyStoreCoordinator.swift */,
+				F4239A122C930EA4005AD7B4 /* ARView + Extension.swift */,
+				F42399E42C92FCBD005AD7B4 /* Assets.xcassets */,
+				F4239A162C9394C8005AD7B4 /* 3D Models */,
+				F42399E62C92FCBD005AD7B4 /* Preview Content */,
+			);
+			path = ToyStore;
+			sourceTree = "<group>";
+		};
+		F42399E62C92FCBD005AD7B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F42399E72C92FCBD005AD7B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4239A162C9394C8005AD7B4 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4239A002C930106005AD7B4 /* Drummer.usdz */,
+				F4239A012C930106005AD7B4 /* Robot.usdz */,
+				F4239A072C930106005AD7B4 /* RocketToy1.usdz */,
+				F4239A052C930106005AD7B4 /* RocketToy2.usdz */,
+				F4239A022C930106005AD7B4 /* Scene.usda */,
+				F4239A032C930106005AD7B4 /* ToyBiplane.usdz */,
+				F4239A062C930106005AD7B4 /* ToyCar.usdz */,
+				F4239A042C930106005AD7B4 /* ToyRocket.usdz */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42399DC2C92FCBB005AD7B4 /* ToyStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42399EB2C92FCBD005AD7B4 /* Build configuration list for PBXNativeTarget "ToyStore" */;
+			buildPhases = (
+				F42399D92C92FCBB005AD7B4 /* Sources */,
+				F42399DA2C92FCBB005AD7B4 /* Frameworks */,
+				F42399DB2C92FCBB005AD7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyStore;
+			productName = ToyStore;
+			productReference = F42399DD2C92FCBB005AD7B4 /* ToyStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42399D52C92FCBB005AD7B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F42399DC2C92FCBB005AD7B4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F42399D82C92FCBB005AD7B4 /* Build configuration list for PBXProject "ToyStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42399D42C92FCBB005AD7B4;
+			productRefGroup = F42399DE2C92FCBB005AD7B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42399DC2C92FCBB005AD7B4 /* ToyStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42399DB2C92FCBB005AD7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4239A0E2C930106005AD7B4 /* ToyCar.usdz in Resources */,
+				F4239A0B2C930106005AD7B4 /* ToyBiplane.usdz in Resources */,
+				F4239A0D2C930106005AD7B4 /* RocketToy2.usdz in Resources */,
+				F4239A092C930106005AD7B4 /* Robot.usdz in Resources */,
+				F4239A0A2C930106005AD7B4 /* Scene.usda in Resources */,
+				F4239A0C2C930106005AD7B4 /* ToyRocket.usdz in Resources */,
+				F42399E82C92FCBD005AD7B4 /* Preview Assets.xcassets in Resources */,
+				F4239A082C930106005AD7B4 /* Drummer.usdz in Resources */,
+				F4239A0F2C930106005AD7B4 /* RocketToy1.usdz in Resources */,
+				F42399E52C92FCBD005AD7B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42399D92C92FCBB005AD7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42399E32C92FCBB005AD7B4 /* ContentView.swift in Sources */,
+				F4239A132C930EA4005AD7B4 /* ARView + Extension.swift in Sources */,
+				F4239A152C930ED1005AD7B4 /* ToyModelEnum.swift in Sources */,
+				F4239A112C9302E6005AD7B4 /* ToyStoreCoordinator.swift in Sources */,
+				F42399E12C92FCBB005AD7B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F42399E92C92FCBD005AD7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42399EA2C92FCBD005AD7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42399EC2C92FCBD005AD7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToyStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CD56KSUZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coreyedh.ToyStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42399ED2C92FCBD005AD7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToyStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CD56KSUZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coreyedh.ToyStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42399D82C92FCBB005AD7B4 /* Build configuration list for PBXProject "ToyStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42399E92C92FCBD005AD7B4 /* Debug */,
+				F42399EA2C92FCBD005AD7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42399EB2C92FCBD005AD7B4 /* Build configuration list for PBXNativeTarget "ToyStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42399EC2C92FCBD005AD7B4 /* Debug */,
+				F42399ED2C92FCBD005AD7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42399D52C92FCBB005AD7B4 /* Project object */;
+}
